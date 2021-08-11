@@ -1,3 +1,4 @@
+/* eslint-disable class-methods-use-this */
 class EasyHTTP {
   // Make an HTTP GET Request
   async get(url) {
@@ -17,3 +18,8 @@ class EasyHTTP {
     const resData = await response.json();
     return resData;
   }
+
+}
+
+const http = new EasyHTTP();
+export default http;
