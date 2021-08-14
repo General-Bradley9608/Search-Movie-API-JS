@@ -99,9 +99,9 @@ class UI {
       item.querySelector('.like-btn').addEventListener('click', (e) => {
         // console.log(e.target.parentNode.parentNode.parentNode.id);
         // console.log(item.id);
-        addLike(e.target.parentNode.parentNode.parentNode.id);
+        addLike(e.target.parentNode.parentNode.id);
         let addCount = parseInt(e.target.innerHTML, 10);
-        console.log(e.target);
+        console.log(e.target.parentNode.parentNode.id);
         addCount += 1;
         console.log(typeof addCount);
         e.target.innerHTML = addCount;
