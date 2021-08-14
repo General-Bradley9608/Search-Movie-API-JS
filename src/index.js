@@ -20,4 +20,4 @@ document.querySelector('#search-input').addEventListener('keypress', (e) => {
   }
 });
 
-document.addEventListener('DOMContentLoaded', getMovies('')); // , getLikes
+document.addEventListener('DOMContentLoaded', getMovies(''));

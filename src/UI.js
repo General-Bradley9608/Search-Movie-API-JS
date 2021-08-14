@@ -3,6 +3,12 @@
 import { getLikes, addLike } from './likesAPI.js';
 import { getComments, submitComment } from './commentsAPI.js';
 
+const countCards = () => {
+  const numOfCards = document.querySelectorAll('.card-movie').length;
+  // document.querySelector('.cards-counter').textContent = `(${numOfCards})`;
+  return numOfCards;
+};
+
 class UI {
   constructor() {
     this.movie = document.querySelector('#movie-box');
@@ -40,7 +46,7 @@ class UI {
 
       const image = movie.show.image?.medium ?? 'https://i.ibb.co/nPzyFm6/placeholder.png';
       output += `
-      <div class="card mb-5 border border-5 shadows" id="${movie.show.id}" style="max-width: 20rem, max-height: 20rem;">
+      <div class="card card-movie mb-5 border border-5 shadows" id="${movie.show.id}" style="max-width: 20rem, max-height: 20rem;">
         <img src="${image}" class="card-img-top" alt="">
         <div class="card-body">
           <h5 class="card-title">${movie.show.name}</h5>
@@ -86,6 +92,8 @@ class UI {
       });
       const imageM = document.querySelector(`#${sourceId}`)[0].getAttribute('src');
       movieImage.src = imageM;
+      console.log(imageM);
+      console.log(movieImage.src);
 
       const nameM = document.querySelector(`#${sourceId}`)[1];
       movieName.innerHTML = nameM[0].innerHTML;
@@ -159,4 +167,4 @@ class UI {
 }
 
 const ui = new UI();
-export default ui;
+export { ui, countCards };
