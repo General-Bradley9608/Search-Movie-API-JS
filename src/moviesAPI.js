@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import http from './http.js';
 
-import ui from './UI.js';
+import { ui } from './UI.js';
 
 // Get Movies
 async function getMovies(searchParams) {
