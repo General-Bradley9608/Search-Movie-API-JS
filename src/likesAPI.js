@@ -18,7 +18,7 @@ const getLikes = async () => {
 
 // add likes
 function addLike(itemID) {
-  console.log(itemID);
+  console.log('ti id einai edw mesa addLike', itemID);
   const likeBody = {
     item_id: itemID,
   };
