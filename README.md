@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Leaderboard
+# Capstone API
 
-> A minimalist Leaderboard app for the [Microverse](https://microverse.io) platform.
+> In this Capstone i have chosen a Movie app for [Microverse](https://microverse.io) platform.
 
 ## Built With
 
@@ -10,9 +10,10 @@
 - CSS
 - Javascript
 - Webpack-cli
+
 ## Live Demo
 
-<!-- [Leaderboard Live!](URL) -->
+[Movie Love Live!](https://pountzas.github.io/Capstone-Webapp-API/)
 
 ## Getting Started
 
@@ -26,10 +27,10 @@ To get a local copy up and running follow these simple example steps.
 
 - Use your github account and your terminal to clone this repository to your computer:
 
-`https://github.com/pountzas/Leader-board.git`
+`https://github.com/pountzas/Capstone-Webapp-API.git`
 
 - Go to the cloned directory:
-`cd Leader-board`
+`cd Capstone-Webapp-API`
 
 - Run the following command to install dependencies:
 `npm install`
@@ -61,7 +62,7 @@ Run dist/index.html in your preferred browser.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/pountzas/Leader-board/issues).
+Feel free to check the [issues page](https://github.com/pountzas/Capstone-Webapp-API/issues).
 
 ## Show your support
 
