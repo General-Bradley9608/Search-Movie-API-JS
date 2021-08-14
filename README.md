@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Leaderboard Live!](https://pountzas.github.io/Capstone-Webapp-API/)
+[Movie Love Live!](https://pountzas.github.io/Capstone-Webapp-API/)
 
 ## Getting Started
 
