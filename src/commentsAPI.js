@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import http from './http.js';
-// import ui from './UI.js';
+// import { ui } from './UI.js';
 
 const appKey = 'iTwOeYcQW4Syd1iyW4ip';
 const baseUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi';
