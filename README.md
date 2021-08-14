@@ -2,7 +2,7 @@
 
 # Capstone API
 
-> In this Cpaastone i have chosen a Movie app for [Microverse](https://microverse.io) platform.
+> In this Capstone i have chosen a Movie app for [Microverse](https://microverse.io) platform.
 
 ## Built With
 
@@ -10,9 +10,10 @@
 - CSS
 - Javascript
 - Webpack-cli
+
 ## Live Demo
 
-<!-- [Leaderboard Live!](URL) -->
+[Leaderboard Live!](https://pountzas.github.io/Capstone-Webapp-API/)
 
 ## Getting Started
 
