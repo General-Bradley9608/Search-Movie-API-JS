@@ -40,7 +40,7 @@ class UI {
 
       const image = movie.show.image?.medium ?? 'https://i.ibb.co/nPzyFm6/placeholder.png';
       output += `
-      <div class="card mb-5 border border-5 shadows" id="${movie.show.id}" style="max-width: 20rem, max-height: 20rem;">
+      <div class="card card-movie mb-5 border border-5 shadows" id="${movie.show.id}" style="max-width: 20rem, max-height: 20rem;">
         <img src="${image}" class="card-img-top" alt="">
         <div class="card-body">
           <h5 class="card-title">${movie.show.name}</h5>
