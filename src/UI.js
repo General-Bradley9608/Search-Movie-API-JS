@@ -46,9 +46,7 @@ class UI {
         <div class="card-body">
           <h5 class="card-title">${movie.show.name}</h5>
           <p class="card-text">Premiered: ${movie.show.premiered}</p>
-          <button class="like-btn btn btn-dark">  
-            <i type="button" class="far fa-thumbs-up">${likeCount}</i>
-          </button>
+            <i type="button" class="far fa-thumbs-up like-btn">${likeCount}</i>
           
           <p class="card-text"></p>
           <div class="d-flex justify-content-between">
@@ -103,7 +101,7 @@ class UI {
         // console.log(item.id);
         addLike(e.target.parentNode.parentNode.parentNode.id);
         let addCount = parseInt(e.target.innerHTML, 10);
-        // addCount.toI
+        console.log(e.target);
         addCount += 1;
         console.log(typeof addCount);
         e.target.innerHTML = addCount;
