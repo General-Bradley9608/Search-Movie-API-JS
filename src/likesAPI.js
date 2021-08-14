@@ -5,13 +5,10 @@ import http from './http.js';
 const appKey = 'iTwOeYcQW4Syd1iyW4ip';
 const baseUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi';
 const likesLink = `/apps/${appKey}/likes/`;
-// const commentLink = `/apps/${appKey}/comments`;
-// const reservationsLink = `/apps/${appKey}/reservations`;
 
 // Get Likes Count
 const getLikes = async () => {
   const result = await http.get(`${baseUrl}${likesLink}`);
-  // const likes = await result.json();
   console.log(result);
   return result;
 };

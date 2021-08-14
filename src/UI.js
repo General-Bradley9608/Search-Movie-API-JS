@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 /* eslint-disable no-unused-vars */
 import { getLikes, addLike } from './likesAPI.js';
 import { getComments, submitComment } from './commentsAPI.js';
@@ -20,23 +19,12 @@ class UI {
     let output = '';
     let likeCount = 0;
 
-    // let commentCount = 0;
-    // console.log('edw like array', likeArray);
-    // let isMovieId = 0;
-
     movies.forEach((movie) => {
       likeArray.forEach((like) => {
-        // const idString = parseInt(movie.show.id, 10);
-        // console.log(like.likes, like.item_id);
         // eslint-disable-next-line eqeqeq
         if (like.item_id == movie.show.id) {
-          // console.log(like.likes);
           likeCount = like.likes;
-          // console.log(likeShow);
-          // return likeCount;
         }
-        // like.item_id = like.item_id.toString();
-        // console.log(like.likes);
       });
 
       const image = movie.show.image?.medium ?? 'https://i.ibb.co/nPzyFm6/placeholder.png';
@@ -97,8 +85,6 @@ class UI {
 
     Array.from(movieKids).forEach((item) => {
       item.querySelector('.like-btn').addEventListener('click', (e) => {
-        // console.log(e.target.parentNode.parentNode.parentNode.id);
-        // console.log(item.id);
         addLike(e.target.parentNode.parentNode.id);
         let addCount = parseInt(e.target.innerHTML, 10);
         console.log(e.target.parentNode.parentNode.id);
@@ -110,21 +96,16 @@ class UI {
       item.querySelector('.comments-btn').addEventListener('click', (e) => {
         console.log('works');
         console.log(e.target.parentNode.parentNode.parentNode.id);
-        // remove class hidden
         if (openPop.classList.contains('hidden')) {
           openPop.classList.remove('hidden');
           console.log('works fine');
         }
-        // document.getElementById('overlay').removeClass('hidden');
-        // changeState.removeClass('hidden');
         openCommentsModal(e.target.parentNode.parentNode.parentNode.id);
       });
 
       item.querySelector('.reservations-btn').addEventListener('click', () => {
         console.log('works');
         console.log(item.id);
-        // changeState.classList.remove('hidden');
-        // openReservationsModal(item.id);
       });
     });
   }
