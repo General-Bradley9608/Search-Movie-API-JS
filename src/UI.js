@@ -2,12 +2,7 @@
 /* eslint-disable no-unused-vars */
 import { getLikes, addLike } from './likesAPI.js';
 import { getComments, submitComment } from './commentsAPI.js';
-
-const countCards = () => {
-  const numOfCards = document.querySelectorAll('.card-movie').length;
-  // document.querySelector('.cards-counter').textContent = `(${numOfCards})`;
-  return numOfCards;
-};
+import { countCards, countLikes, countComments } from './counts.js';
 
 class UI {
   constructor() {
