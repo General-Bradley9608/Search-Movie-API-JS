@@ -4,20 +4,22 @@ import './style.css';
 // import ui from './UI.js';
 import getMovies from './moviesAPI.js';
 
-// search with click
-document.querySelector('#get-input').addEventListener('click', (e) => {
-  e.preventDefault();
-  console.log(e.target.previousElementSibling.value);
-  getMovies(e.target.previousElementSibling.value);
-});
+// commented out because of search conflict.
 
-// search with enter
-document.querySelector('#search-input').addEventListener('keypress', (e) => {
-  if (e.key === 'Enter') {
-    e.preventDefault();
-    console.log(e.target.value);
-    getMovies(e.target.value);
-  }
-});
+// // search with click
+// document.querySelector('#get-input').addEventListener('click', (e) => {
+//   e.preventDefault();
+//   console.log(e.target.previousElementSibling.value);
+//   getMovies(e.target.previousElementSibling.value);
+// });
+
+// // search with enter
+// document.querySelector('#search-input').addEventListener('keypress', (e) => {
+//   if (e.key === 'Enter') {
+//     e.preventDefault();
+//     console.log(e.target.value);
+//     getMovies(e.target.value);
+//   }
+// });
 
 document.addEventListener('DOMContentLoaded', getMovies(''));
