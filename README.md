@@ -15,6 +15,10 @@
 
 [Movie Love Live!](https://pountzas.github.io/Capstone-Webapp-API/)
 
+## Live Video
+
+[Movie Video loom!](https://www.loom.com/share/00f75e8a33e742e49984e1dee495a388)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
