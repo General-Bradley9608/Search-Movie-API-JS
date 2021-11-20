@@ -4,6 +4,8 @@
 
 > In this Capstone i have chosen a Movie app for [Microverse](https://microverse.io) platform.
 
+![](./project.png)
+
 ## Built With
 
 - HTML
