@@ -13,14 +13,6 @@
 - Javascript
 - Webpack-cli
 
-## Live Demo
-
-[Movie Love Live!](https://pountzas.github.io/Capstone-Webapp-API/)
-
-## Live Video
-
-[Movie Video loom!](https://www.loom.com/share/00f75e8a33e742e49984e1dee495a388)
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -33,10 +25,10 @@ To get a local copy up and running follow these simple example steps.
 
 - Use your github account and your terminal to clone this repository to your computer:
 
-`https://github.com/pountzas/Capstone-Webapp-API.git`
+`https://github.com/General-Bradley9608/Search-Movie-App-JS.git`
 
 - Go to the cloned directory:
-`cd Capstone-Webapp-API`
+`cd Search-Movie-App-JS`
 
 - Run the following command to install dependencies:
 `npm install`
@@ -58,17 +50,13 @@ Run dist/index.html in your preferred browser.
 
 ## Authors
 
-👤 **Nikos Pountzas**
+👤 **Bradley**
 
-- GitHub: [pountzas](https://github.com/pountzas)
-- Twitter: [@pountzas20](https://twitter.com/pountzas20)
-- LinkedIn: [Nikos Pountzas](https://www.linkedin.com/in/nikos-pountzas/)
+- GitHub: [Bradley](https://github.com/General-Bradley9608)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/pountzas/Capstone-Webapp-API/issues).
 
 ## Show your support
 
