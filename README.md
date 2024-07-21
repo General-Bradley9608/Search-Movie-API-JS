@@ -25,10 +25,10 @@ To get a local copy up and running follow these simple example steps.
 
 - Use your github account and your terminal to clone this repository to your computer:
 
-`https://github.com/General-Bradley9608/Search-Movie-App-JS.git`
+`https://github.com/General-Bradley9608/Search-Movie-API-JS.git`
 
 - Go to the cloned directory:
-`cd Search-Movie-App-JS`
+`cd Search-Movie-API-JS`
 
 - Run the following command to install dependencies:
 `npm install`
