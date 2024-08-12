@@ -50,9 +50,7 @@ Run dist/index.html in your preferred browser.
 
 ## Authors
 
-👤 **Bradley**
-
-- GitHub: [Bradley](https://github.com/General-Bradley9608)
+- GitHub: [My Github](https://github.com/General-Bradley9608)
 
 ## 🤝 Contributing
 
